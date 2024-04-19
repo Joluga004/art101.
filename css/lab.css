@@ -1,0 +1,11 @@
+/* Set the background color to pastel blue */
+body {
+    background-color: #f7f7c9; /* Pastel Blue */
+}
+
+/* Style for elements with the class "minor-sections" */
+.minor-sections {
+    background-color: rgb(129, 129, 183); /* Navy Blue */
+    border: 2px solid pink; /* Pink border */
+    padding: 20px
+} 
