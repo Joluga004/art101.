@@ -1,6 +1,7 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Rock Paper Scissors
+// Author: Jorge L. Garcia
+// Date: April 24th, 2024
+// Email: Jgarc476@ucsc.edu
 
 // Constants
 
@@ -15,7 +16,26 @@ function myFunction(param1, param2) {
 function main() {
   console.log("Main function started.");
   // the code that makes everything happen
+//Two Player Game
+	//Three available selections. 
+	//Rock, Paper, Scissors
+
+//Each Players counts down 321
+	//Reveal random selection
+
+
+  //Ways to Win
+	  //RockVsScissors
+		  //ScissorsVsPaper
+			  //PaperVsRock
+
+  //Ways to Draw
+      //RockVsRock
+        //PaperVsPaper
+          //ScissorsVsScissors
 }
 
 // let's get this party started
-main();
+main(
+  
+			);

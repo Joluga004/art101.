@@ -24,7 +24,7 @@
 
 body { 
     /* Set background image */
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fa/Mexico-3980_-_Coyolxauhqui_Stone_%282508259597%29.jpg);
+    background-image: url(../../img/coyo.jpg);
     /* Adjust background properties */
     background-size: cover;
     background-position: center;
