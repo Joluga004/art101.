@@ -42,7 +42,7 @@ h1 {
 body {
   background-image: url(../img/RanaRana.jpeg);
   background-repeat: repeat;
-  background-size: 100% auto; /* Adjust the size as needed */
+  background-size: 30% auto; /* Adjust the size as needed */
   background-position: center; /* Center the background image */
   opacity: 0.5;
   border: 1in solid #00FF00; /* Thick neon border */
