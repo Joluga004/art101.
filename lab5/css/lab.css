@@ -4,6 +4,17 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #88888870;
+    background-color: #f3d14a50;
   }
+
+body {
+  padding-left: 15;
+  padding-right: 15;
+}
+
+img {
+  width: 20%; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+}
+
