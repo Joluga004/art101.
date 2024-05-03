@@ -1,9 +1,7 @@
 // Define the function to sort the user's name
 // Define the function to shuffle the user's name and create an anagram
-function createAnagram() {
-  // Prompt the user to enter their name
-  var userName = window.prompt("Please enter your name:");
-
+// Function to create an anagram of the user's name
+function createAnagram(userName) {
   // Convert the user's name to lowercase and split it into an array of characters
   var nameArray = userName.toLowerCase().split('');
 
@@ -38,8 +36,11 @@ function capitalizeWords(string) {
   });
 }
 
-// Call the function to create an anagram of the user's name
-var anagramName = createAnagram();
+// Prompt the user to enter their name
+var userName = window.prompt("Please enter your name:");
+
+// Call the function to create an anagram of the user's name and pass the name as a parameter
+var anagramName = createAnagram(userName);
 
 // Output the capitalized anagram of the user's name
 document.writeln("Your anagram name is: " + anagramName);
