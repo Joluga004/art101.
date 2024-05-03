@@ -5,7 +5,9 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #88888870;
-    background-color: #f3d14a50;
+    background-color: #0f0c029a;
+    color: rgba(255, 94, 0, 0.692);
+    font-size: 1.5rem;
   }
 
 body {
@@ -18,3 +20,31 @@ img {
   height: auto; /* Maintain the aspect ratio */
 }
 
+body { 
+  /* Set background image */
+  background-image: url(../../img/coatlicue2.png);
+  /* Adjust background properties */
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: auto;
+  background-color: rgba(0, 0, 0, 0.533);
+  /* Add some styles to ensure the image covers the entire page */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  text-align: center;
+  font-size: large;
+  font: bold;
+  text-overflow: ellipsis  ;
+}
+
+h1 {
+  font-size: 4rem;
+  color: rgba(252, 0, 0, 0.797);
+  background-color: rgba(0, 0, 0, 0.533);
+}
+
+h2 {
+  color: rgba(248, 29, 29, 0.832);
+}
