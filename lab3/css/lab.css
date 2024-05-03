@@ -8,4 +8,23 @@
     background-color: #DDD8C4;
   }
 
+
+  body { 
+    /* Set background image */
+    background-image: url(../../img/miniturefigurines.png);
+    /* Adjust background properties */
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: auto;
+    background-color: rgba(0, 0, 0, 0.533);
+    /* Add some styles to ensure the image covers the entire page */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    text-align: center;
+    font-size: large;
+    font: bold;
+    text-overflow: ellipsis  ;
+  }
   
