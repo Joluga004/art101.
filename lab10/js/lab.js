@@ -3,7 +3,6 @@
 // Date:05/06/2024
 
 
-
 function generateRandomText() {
   const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
   const min = 3;
@@ -15,11 +14,13 @@ function generateRandomText() {
   return text.slice(randStart, randStart + randLen);
 }
 
+
 // click listener for button
 $("#make-convo").click(function(){
-	console.log("click");
-	// get new fake dialogue
-	const newText = generateRandomText();
-  // append a new div to our output div
-	$("#output").append('<div class="text"><p>' + newText + '</p></div>');
+
+    // get new fake dialogue
+    const newText = generateRandomText();
+    // append a new div to our output div
+    $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 });
+
