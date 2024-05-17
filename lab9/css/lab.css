@@ -1,14 +1,22 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.text p {
-  display: inline-block;
-  max-width: 60%;
-  margin: 3px;
-  padding: 5px 10px;
-  border-radius: 15px;
-  background-color: darkgray;
-  color: white;
-  font-family: sans-serif;
-  font-size: 0.8em;
+
+
+
+body { 
+  /* Set background image */
+  background-image: url(../../img/bobby.png);
+  /* Adjust background properties */
+  background-size: 15; /* Set to auto to use the image's original size */
+  background-repeat: repeat; /* Repeat the image to create a tiled effect */
+  background-position: center;
+  /* Add some styles to ensure the image covers the entire page */
+  margin: 0;
+  padding: 0;
+  height: 10vh;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  text-overflow: ellipsis;
 }
