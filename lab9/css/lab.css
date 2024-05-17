@@ -3,20 +3,9 @@
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 
 
-
-body { 
-  /* Set background image */
-  background-image: url(../../img/bobby.png);
-  /* Adjust background properties */
-  background-size: 15; /* Set to auto to use the image's original size */
-  background-repeat: repeat; /* Repeat the image to create a tiled effect */
-  background-position: center;
-  /* Add some styles to ensure the image covers the entire page */
-  margin: 0;
-  padding: 0;
-  height: 10vh;
-  text-align: center;
-  font-size: medium;
+.special {
+  background-color: lavender;
+  border: dotted 50px red;
+  color: pink;
   font-weight: bold;
-  text-overflow: ellipsis;
 }
