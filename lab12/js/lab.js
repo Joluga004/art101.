@@ -1,7 +1,7 @@
-// index.js - Anon and Call back Functions
+// index.js - conditionals
 // Author: Jorge L. Garcia
-// Date:05/19/2024
-// Generates an anagram of a given string.
+// Date:05/22/2024
+// 
 // credit to ChatGPT
 
 // Function to generate an anagram
