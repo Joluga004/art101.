@@ -22,7 +22,7 @@
 
 body { 
   /* Set background image */
-  background-image: url(../../img/miniturefigurines.png);
+  background-image: url(../../img/coatlicue.png);
   /* Adjust background properties */
   background-size: 15; /* Set to auto to use the image's original size */
   background-repeat: repeat; /* Repeat the image to create a tiled effect */
