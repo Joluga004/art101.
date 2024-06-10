@@ -1,7 +1,7 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-#content { background-color: black;
+#content { background-color: transparent;
   color: black;
   text-transforms: capitalize;
   font-weight: 10rem;
